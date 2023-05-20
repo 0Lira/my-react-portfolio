@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .menu-header>a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    color: #000000;
+  }
+  .menu-header>a:hover{
+    text-decoration: underline #ffffff;
+    color: #ffffff;
+    transition: 1s;
+  }
+  .main{
+    background-color: #393a3a;
+    height: 91vh;
+  }
+  .contato-nav>a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 20px;
+    font-size: 40px;
+  }
+  .contato-nav>:first-child:hover{
+    color: #2b97c8;
+    transition: 1s;
+  }
+  .contato-nav>:nth-child(2):hover{
+    color: #171c20;
+    transition: 1s;
+  }
+  .contato-nav>:last-child:hover{
+    color: #0a5cb0;
+    transition: 1s;
+  }
+  /*fim--do--header*/
+  #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+  }
+  
+  
+  .circle-animation{
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  border-radius: 50%;
+}
